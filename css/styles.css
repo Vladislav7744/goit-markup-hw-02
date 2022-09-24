@@ -7,10 +7,15 @@
     text-decoration: none;
 }
 
+body {
+  font-family: 'Roboto', sans-serif;
+  background: #F5F5F5;
+}
+
 
 
 .logo-link {
-font-family: 'Raleway';
+font-family: 'Raleway', sans-serif;
 font-weight: 700;
 font-size: 26px;
 line-height: 1.19;
@@ -25,7 +30,6 @@ color: #2196F3;
 
 
 .nav-list-link {
-font-family: 'Roboto';
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
@@ -41,7 +45,6 @@ color:#2196F3;
 
 
 .mail {
-font-family: 'Roboto';
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
@@ -59,7 +62,6 @@ color: #2196F3;
 
 
 .contact-number {   
-font-family: 'Roboto';
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
@@ -69,10 +71,9 @@ color: #757575;
 
 
 .modal-btn {
-font-family: 'Roboto';
 font-weight: 700;
 font-size: 16px;
-line-height: 1.87;
+line-height: 1.87;  
 display: flex;
 align-items: center;
 text-align: center;
@@ -86,7 +87,7 @@ color: #FFFFFF;
 
 .modal-btn:hover,
 .modal-btn:focus {    
-background: #2196F3;
+background-color: #2196F3;
 }
 
 
@@ -95,8 +96,10 @@ background: #2196F3;
 }
 
 
+
+
 .logo-footer {
-font-family: 'Raleway';
+font-family: 'Raleway', sans-serif;
 font-weight: 700;
 font-size: 26px;
 line-height: 1.19;  
@@ -105,7 +108,7 @@ letter-spacing: 0.03em;
 }
 
 .adress-footer {
-font-family: 'Roboto';
+font-family: 'Roboto', sans-serif;
 font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
@@ -115,7 +118,7 @@ letter-spacing: 0.03em;
 
 
 .contact-footer {
-font-family: 'Roboto';
+font-family: 'Roboto', sans-serif;
 font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
