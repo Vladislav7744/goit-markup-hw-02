@@ -8,6 +8,41 @@
 Цвет хедер                  #FFFFFF     #FFFFFF
 Наша команда                #F5F4FA     
 Цвет ОБЩЕГО фона  #F5F5F5 
+Цвет текста в кнопке   #FFFFFF
+Цвет мыла и номер в футере rgba(255, 255, 255, 0.6)
+Цвета лого в хедере #000000 черный #2196F3 синий.
 */
 
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color:#F5F5F5;
+    color:#212121 ;
+}
 
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/*header*/
+
+.logo {
+font-family: 'Raleway';
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+color: #000000;
+}
+
+.logo-color {
+color: #2196F3;
+}
+
+
+/*body*/
+/*footer*/
