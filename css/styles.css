@@ -1,127 +1,13 @@
-.list {
-    list-style: none;
-}
+ /*
+Заметки                     Студия      Портфолио
+Цвет основного текста       #212121     #212121
+Вторичного текста           #757575     #757575
+Цвет акцента                #2196F3     #2196F3
+Основной цвет фона          #F5F5F5     #F5F5F5
+Цвет герой-подвал           #2F303A     #2F303A
+Цвет хедер                  #FFFFFF     #FFFFFF
+Наша команда                #F5F4FA     
+Цвет ОБЩЕГО фона  #F5F5F5 
+*/
 
 
-.link {
-    text-decoration: none;
-}
-
-body {
-  font-family: 'Roboto', sans-serif;
-  background: #F5F5F5;
-}
-
-
-
-.logo-link {
-font-family: 'Raleway', sans-serif;
-font-weight: 700;
-font-size: 26px;
-line-height: 1.19;
-letter-spacing: 0.03em;
-color:#000000;  
-}
-
-
-.logo-color {
-color: #2196F3;
-}
-
-
-.nav-list-link {
-font-weight: 500;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.02em;
-color: #212121;
-}
-
-
-.nav-list-link:hover,
-.nav-list-link:focus {
-color:#2196F3;  
-}
-
-
-.mail {
-font-weight: 500;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.02em;
-color: #757575;
-}
-
-
-
-
-.mail:hover,
-.mail:focus {
-color: #2196F3;
-}
-
-
-.contact-number {   
-font-weight: 500;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.02em;
-color: #757575;
-}
-
-
-.modal-btn {
-font-weight: 700;
-font-size: 16px;
-line-height: 1.87;  
-display: flex;
-align-items: center;
-text-align: center;
-letter-spacing: 0.06em;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-border-radius: 4px;
-background: #2196F3;
-color: #FFFFFF;
-}
-
-
-.modal-btn:hover,
-.modal-btn:focus {    
-background-color: #2196F3;
-}
-
-
-.modal-btn:active {
-  color:#188CE8;  
-}
-
-
-
-
-.logo-footer {
-font-family: 'Raleway', sans-serif;
-font-weight: 700;
-font-size: 26px;
-line-height: 1.19;  
-letter-spacing: 0.03em;
-/*color:#FFFFFF;  */
-}
-
-.adress-footer {
-font-family: 'Roboto', sans-serif;
-font-weight: 400;
-font-size: 14px;
-line-height: 1.71;
-letter-spacing: 0.03em;
-/*color: #FFFFFF;*/
-}
-
-
-.contact-footer {
-font-family: 'Roboto', sans-serif;
-font-weight: 400;
-font-size: 14px;
-line-height: 1.71;
-letter-spacing: 0.03em;
-/*color: rgba(255, 255, 255, 0.6);*/
-}
