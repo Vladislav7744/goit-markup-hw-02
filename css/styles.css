@@ -1,7 +1,7 @@
  /*
 Заметки                     Студия      Портфолио
-Цвет основного текста       #212121     #212121
-Вторичного текста           #757575     #757575
+Цвет вторичного текста      #212121     #212121
+Цвет основного текста       #757575     #757575
 Цвет акцента                #2196F3     #2196F3
 Основной цвет фона          #F5F5F5     #F5F5F5
 Цвет герой-подвал           #2F303A     #2F303A
@@ -13,36 +13,128 @@
 Цвета лого в хедере #000000 черный #2196F3 синий.
 */
 
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+}
+
+
 body {
     font-family: 'Roboto', sans-serif;
     background-color:#F5F5F5;
-    color:#212121 ;
+    color:var(--primary-text-color) ;
 }
 
-ul {
+.list {
     list-style: none;
 }
 
-a {
+.link {
     text-decoration: none;
 }
 
 
 /*header*/
 
+
+/* Logo */
 .logo {
-font-family: 'Raleway';
-font-weight: 700;
-font-size: 26px;
-line-height: 1.19;
-letter-spacing: 0.03em;
-color: #000000;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #000000;
 }
 
 .logo-color {
-color: #2196F3;
+    color:var(--accent-color);
+}
+
+.logo:hover,
+.logo:focus {
+    color:var(--accent-color)
+}
+
+/* Site navigation */
+.site-nav .link {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color:var(--title-text-color)
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color:var(--accent-color)
+}
+
+/* Header contacts */
+
+.contacts-hdr .link {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color:var(--primary-text-color)
+}
+
+.contacts-hdr .link:hover,
+.contacts-hdr .link:focus {
+    color:var(--accent-color)
+}
+
+/*body*/
+
+
+/* Hero */
+.hero {
+    background: #2F303A;
+}
+
+.hero-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    
 }
 
 
-/*body*/
+
+/* Sections */
+.section-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color:var(--title-text-color)
+}
+
+/* Features */
+
+.features .title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color:var(--title-text-color)
+}
+
+
+
+
+
+
+
+
 /*footer*/
