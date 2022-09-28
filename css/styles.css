@@ -5,7 +5,7 @@
 Цвет акцента                #2196F3     #2196F3
 Основной цвет фона          #F5F5F5     #F5F5F5
 Цвет герой-подвал           #2F303A     #2F303A
-Цвет хедер                  #FFFFFF     #FFFFFF
+Преимущество белый          #FFFFFF     #FFFFFF
 Наша команда                #F5F4FA     
 Цвет ОБЩЕГО фона  #F5F5F5 
 Цвет текста в кнопке   #FFFFFF
@@ -17,6 +17,9 @@
     --primary-text-color: #757575;
     --title-text-color: #212121;
     --accent-color: #2196F3;
+    --primary-white-color: #FFFFFF;
+    --hero-footer-color: #2F303A;
+    --footer-contact-color : rgba(255, 255, 255, 0.6);
 }
 
 
@@ -36,6 +39,10 @@ body {
 
 
 /*header*/
+
+.header {
+    background-color: var(--primary-white-color);
+}
 
 
 /* Logo */
@@ -97,7 +104,7 @@ body {
 
 /* Hero */
 .hero {
-    background: #2F303A;
+    background-color: var(--hero-footer-color);
 }
 
 .hero-title {
@@ -107,7 +114,7 @@ body {
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    color: #FFFFFF; 
+    color: var(--primary-white-color); 
 }
 
 .btn {
@@ -122,7 +129,7 @@ body {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     background-color:var(--accent-color) ;
-    color: #FFFFFF;
+    color: var(--primary-white-color);
 }
 
 .btn:hover,
@@ -164,11 +171,92 @@ body {
     letter-spacing: 0.03em;
 }
 
+/* team */
 
+.team {
+    background-color: var(--primary-white-color);
+}
 
+.team-title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--title-text-color);
+}
 
-
-
+.team-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
 
 
 /*footer*/
+
+.footer {
+    background-color: var(--hero-footer-color) ;
+}
+
+
+/* logo footer */
+
+
+.logo-footer {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--primary-white-color);
+}
+
+
+.logo-footer:hover,
+.logo-footer:focus {
+    color: var(--accent-color);
+}
+
+
+/* footer adress */
+
+
+.footer-adress {
+    font-style: normal;
+}
+
+
+.footer-map {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: var(--primary-white-color);
+}
+
+.footer-map:hover,
+.footer-map:focus {
+    color: var(--accent-color);
+}
+
+
+.footer-contact {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--footer-contact-color);
+}
+
+
+.footer-contact:hover,
+.footer-contact:focus {
+    color: var(--accent-color);
+}
