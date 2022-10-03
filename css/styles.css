@@ -51,11 +51,9 @@ body {
 
 /* Logo */
 .logo {
-    /* font-family: 'Raleway'; */
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
-    /* letter-spacing: 0.03em; */
     color: var(--logo-header);
 }
 
@@ -70,9 +68,7 @@ body {
 
 /* Site navigation */
 .site-nav .link {
-    /* font-family: 'Roboto'; */
     font-weight: 500;
-    /* font-size: 14px; */
     line-height: 1.14;
     letter-spacing: 0.02em;
     color:var(--title-text-color)
@@ -90,9 +86,7 @@ body {
 /* Header contacts */
 
 .contacts-hdr .link {
-    /* font-family: 'Roboto'; */
     font-weight: 500;
-    /* font-size: 14px; */
     line-height: 1.14;
     letter-spacing: 0.02em;
     color:var(--primary-text-color)
@@ -169,10 +163,7 @@ body {
 }
 
 .features .text {
-    /* font-weight: 400;
-    font-size: 14px; */
     line-height: 24px;
-    /* letter-spacing: 0.03em; */
 }
 
 /* team */
@@ -191,11 +182,9 @@ body {
 }
 
 .team-text {
-    /* font-weight: 400; */
     font-size: 16px;
     line-height: 1.18;
     text-align: center;
-    /* letter-spacing: 0.03em; */
 }
 
 
@@ -210,11 +199,9 @@ body {
 
 
 .logo-footer {
-    /* font-family: 'Raleway'; */
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
-    /* letter-spacing: 0.03em; */
     color: var(--primary-white-color);
 }
 
@@ -234,12 +221,8 @@ body {
 
 
 .footer-map {
-/* font-family: 'Roboto'; */
 font-style: normal;
-/* font-weight: 400; */
-/* font-size: 14px; */
 line-height: 1.71;
-/* letter-spacing: 0.03em; */
 color: var(--primary-white-color);
 }
 
@@ -250,12 +233,8 @@ color: var(--primary-white-color);
 
 
 .footer-contact {
-    /* font-family: 'Roboto'; */
     font-style: normal;
-    /* font-weight: 400;
-    font-size: 14px; */
     line-height: 1.71;
-    /* letter-spacing: 0.03em; */
     color: var(--footer-contact-color);
 }
 
@@ -281,7 +260,6 @@ color: var(--primary-white-color);
     font-size: 16px;
     line-height: 1.62;  
     text-align: center;
-    /* letter-spacing: 0.03em; */
     border-radius: 4px;
     background-color: var(--gray-color);
     color:var(--title-text-color);
@@ -319,8 +297,6 @@ color: var(--primary-white-color);
 
 
 .project-text {
-    /* font-weight: 400; */
     font-size: 16px;
     line-height: 1.87;
-    /* letter-spacing: 0.03em; */
 }
