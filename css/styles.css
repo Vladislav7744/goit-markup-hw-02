@@ -25,6 +25,12 @@
 }
 
 
+h1,h2,h3,h4,h5,p,ul {
+    margin: 0px;
+}
+
+
+
 body {
     font-family: 'Roboto', sans-serif;
     background-color:var(--primary-white-color);
@@ -132,7 +138,7 @@ body {
 }
 
 
-.container-hero {
+.hero .container {
     margin-left: auto;
     margin-right: auto;
     width: 1200px;
@@ -145,7 +151,6 @@ body {
 }
 
 .hero-title {
-    margin-top: 0px;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -206,7 +211,6 @@ body {
     line-height: 1.16;
     letter-spacing: 0.03em;
     text-align: center;
-    margin-top: 0px;
     margin-bottom: 50px;
     color:var(--title-text-color)
 }
@@ -218,12 +222,17 @@ body {
 
 /* Features */
 
+.features {
+    display: inline-block;
+    margin-right: 0px;
+}
+
 .features.list {
-    margin-top: 0px;
     padding-left: 0px;
 }
 
 .features .title {
+    margin-bottom: 10px;
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -232,19 +241,12 @@ body {
     color:var(--title-text-color)
 }
 
-.title {
-    margin-top: 0px;
-    margin-bottom: 10px;
-}
 
 .features .text {
+    display: inline-block;
     line-height: 24px;
 }
 
-.text {
-    margin-top: 0px;
-    margin-bottom: 0px;
-}
 
 
 /* pictures what-do */
@@ -260,12 +262,19 @@ body {
 }
 
 .pictures-what-do {
-    margin: 0px;
     padding-left: 0px;
 }
 
+.what-do-img {
+    display: inline-block;
+    margin-right: 0px;
+}
 
 /* team */
+
+.section:nth-child(4) {
+    background-color: var(--gray-color);
+}
 
 .team-section {
     background-color: var(--gray-color);
@@ -277,26 +286,31 @@ body {
     width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
+    padding-top: 94px;
+    padding-bottom: 94px;
     outline: solid 2px tomato;
 }
 
-/* .team {
-    background-color: var(--primary-white-color);
-} */
+.team {
+    display: inline-block;
+    margin-right: 0px;
+}
+
+.team-list {
+    padding-left: 0px;
+}
 
 .team-title {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
     letter-spacing: 0.03em;
-    text-align: center;
     color: var(--title-text-color);
 }
 
 .team-text {
     font-size: 16px;
     line-height: 1.18;
-    text-align: center;
 }
 
 
