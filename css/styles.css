@@ -70,16 +70,14 @@ body {
     padding-right: 15px;
     padding-top: 32px;
     padding-bottom: 32px;
-    /* outline: solid 2px tomato;   */
+    border-bottom: 1px solid var(--gray-color);
+    outline: solid 2px tomato;  
 }
 
 .header {
     background-color: var(--primary-white-color);
 }
 
-.header .container {
-    border-bottom: 1px solid var(--gray-color);
-}
 
 
 /* Logo */
@@ -102,17 +100,32 @@ body {
 /* Site navigation */
 
 .site-nav {
-    display: inline-block;
+    display: flex;
     margin-bottom: 0px;
     margin-top: 0px;
     padding-left: 0px;
 }
 
+.site-nav .item {
+    /* margin-right: 50px; */
+    outline: solid 1px tomato;
+}
+
+/* .site-nav .item:last-child {
+    margin-right: 0px;
+} */
+
+.site-nav .item:not(:last-child) {
+    margin-right: 50px;
+}
 
 .site-nav .link {
+    display: inline-block;
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.02em;
+    padding-top: 32px;
+    padding-bottom: 32px;
     color:var(--title-text-color)
 }
 
