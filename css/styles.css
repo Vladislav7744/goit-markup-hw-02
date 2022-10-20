@@ -203,7 +203,7 @@ body {
     font-weight: 700;
     font-size: 16px;
     line-height: 1.87;  
-    display: inline-block;
+    display: flex;
     margin-left: auto;
     margin-right: auto;
     min-width: 216px;
@@ -433,7 +433,7 @@ body {
     padding-top: 0px;
     padding-bottom: 0px;
     border-bottom: 1px solid var(--gray-color);
-    outline: solid 2px tomato;  
+    /* outline: solid 2px tomato;   */
 }
 
 /* main portfolio */
@@ -455,12 +455,14 @@ body {
     padding-right: 15px;
     padding-top: 94px;
     padding-bottom: 94px;
-    outline: solid 2px tomato;
+    /* outline: solid 2px tomato; */
 }
 
 /* buttons */
 
 .portfolio-list {
+    display: flex;
+    justify-content: center;
     padding: 0px;
     margin-bottom: 50px;
 }
@@ -474,6 +476,10 @@ body {
     border-radius: 4px;
     background-color: var(--gray-color);
     color:var(--title-text-color);
+}
+
+.portfolio-list .btn-list + .btn-list {
+    margin-left: 8px;
 }
 
 
@@ -500,6 +506,7 @@ body {
 .portfolio-projects {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     padding: 0px;
 }
 
@@ -523,6 +530,9 @@ body {
 }
 
 .project-img {
+    display: block;
+    max-width: 100%;
+    height: auto;
     margin-bottom: 20px;
 }
 
